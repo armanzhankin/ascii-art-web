@@ -7,21 +7,20 @@ Ascii-art-web consists in creating and running a server, in which it will be pos
 
 Webpage allows the use of the different banners:
 
-shadow
-standard
-thinkertoy
+- shadow
+- standard
+- thinkertoy
 
 
 ## AUTHORS
 
-zhankin
-
-Smagul.Alkey
+- zhankin
+- Smagul.Alkey
 
 
 ## USAGE
-~/ascii-art-web$ go run .
-follow the link: http://127.0.0.1:8080 or http://localhost:8080
+- ~/ascii-art-web$ go run .
+- follow the link: http://127.0.0.1:8080 or http://localhost:8080
 
 on the page you can choose font. There are 3 of them: Standard, Shadow and Thinkertoy.
 
