@@ -1,0 +1,51 @@
+body{
+    background: #B5E2FA;  
+    margin: 0;
+    padding: 0;
+}
+.WORD{
+    color: #F5EFED;
+    z-index: 2;
+    font-size: 12vw;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    /* margin-top: -20%; */
+
+}
+textarea{
+    justify-self: center;
+    width:40%;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:250px;
+    resize: none;
+    opacity: 0.8;
+    margin-left: 30%;
+    margin-top: -8%;
+    z-index: 3;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+.banner{
+    /* background-color: ; */
+    opacity: 0.8;
+    width: 8vw;
+    justify-self: center;
+}
+.submit_button{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    width: 4vw;
+    opacity: 0.8;
+    border-radius: 7px;
+}
+.buttons{
+    position: absolute;
+    margin-top: 2%;
+    /* margin-top: 28%; */
+    margin-left: 48%;
+}
+
+.output{
+    text-align: center;
+    margin-top: 5%;
+}

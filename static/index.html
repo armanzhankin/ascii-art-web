@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./static/style.css">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>ASCII-ART WEB</title>
+</head>
+<body>
+    <h1 class="WORD">ASCII-ART WEB</h1>
+    <div>
+     <form method="POST" action="/ascii-art">
+        <textarea placeholder="Please input here your text..." name = "text"></textarea>
+        <div class="buttons">
+            <select name="bannerfile" id="banner" class="banner">
+                <option name="bannerfile" value="standard">Standard</option>
+                <option name="bannerfile" value="shadow">Shadow</option>
+                <option name="bannerfile" value="thinkertoy">Thinkertoy</option>
+                </select>
+                
+           
+                <input type="submit" value="Submit" class="submit_button">
+        </div>
+      
+    </div> 
+    
+    </form>
+    <pre class="output">{{.}}</pre>
+    
+</body>
+</html>
